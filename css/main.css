@@ -1,0 +1,51 @@
+html {
+    background: linear-gradient(blue, black);
+    min-height: 100%;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+body {
+    background: white;
+    border-radius: 10px;
+    border: 5px solid darkblue;
+    padding: 20px;
+    max-width: 55rem;
+    margin: 20px auto;
+}
+
+.navigation {
+    display: flex;
+    border: 1px solid #999;
+    border-radius: 2px;
+    background: linear-gradient(#eee, #ccc);
+}
+
+.navigation a {
+    padding: 10px 20px;
+    border-right: 1px solid #999;
+    border-left: 1px solid #eee;
+}
+
+.navigation a:first-child {
+    border-left: none;
+}
+
+.navigation a:hover,
+.navigation a:focus {
+    background: linear-gradient(#ccc, #aaa);
+}
+
+.footer {
+    text-align: center;
+    background: lightblue;
+    border-radius: 2px;
+    padding: 5px 20px;
+}
+
+.footer hr {
+    margin: 20px 0;
+}
+
+button {
+    cursor: pointer;
+}
